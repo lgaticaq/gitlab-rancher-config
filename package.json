@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint . --fix",
     "format": "prettier-standard 'src/**/*.js'",
-    "test": "echo 'no test'"
+    "test": "echo 'no test'",
+    "semantic-release": "semantic-release"
   },
   "engines": {
     "node": ">=8.3"
