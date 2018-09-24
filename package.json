@@ -1,6 +1,6 @@
 {
   "name": "gitlab-rancher-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Semantic-release shareable config for GitLab with Rancher",
   "main": "index.js",
   "scripts": {
