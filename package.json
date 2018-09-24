@@ -32,14 +32,7 @@
     "url": "https://github.com/lgaticaq/gitlab-rancher-config/issues"
   },
   "homepage": "https://github.com/lgaticaq/gitlab-rancher-config#readme",
-  "dependencies": {
-    "@semantic-release/changelog": "3.0.0",
-    "@semantic-release/git": "7.0.4",
-    "@semantic-release/gitlab": "3.0.4",
-    "@semantic-release/npm": "5.0.4",
-    "semantic-release-gitlab-registry": "2.2.0",
-    "semantic-release-rancher": "1.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "7.1.2",
     "@commitlint/config-conventional": "7.1.2",
@@ -61,7 +54,13 @@
     "travis-deploy-once": "5.0.8"
   },
   "peerDependencies": {
-    "semantic-release": ">=15.9.0 <16.0.0"
+    "@semantic-release/changelog": "^3.0.0",
+    "@semantic-release/git": "^7.0.4",
+    "@semantic-release/gitlab": "^3.0.4",
+    "@semantic-release/npm": "^5.0.4",
+    "semantic-release-gitlab-registry": "^2.2.0",
+    "semantic-release": "^15.9.0",
+    "semantic-release-rancher": "^1.0.2"
   },
   "eslintConfig": {
     "extends": "standard",

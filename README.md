@@ -1,11 +1,10 @@
 # gitlab-rancher-config
 
-[![npm version](https://img.shields.io/npm/v/gitlab-rancher-config.svg?style=flat-square)](https://www.npmjs.com/package/gitlab-rancher-config)
-[![npm downloads](https://img.shields.io/npm/dm/gitlab-rancher-config.svg?style=flat-square)](https://www.npmjs.com/package/gitlab-rancher-config)
-[![Build Status](https://img.shields.io/travis/lgaticaq/gitlab-rancher-config.svg?style=flat-square)](https://travis-ci.org/lgaticaq/gitlab-rancher-config)
-[![Coverage Status](https://img.shields.io/coveralls/lgaticaq/gitlab-rancher-config/master.svg?style=flat-square)](https://coveralls.io/github/lgaticaq/gitlab-rancher-config?branch=master)
-[![Code Climate](https://img.shields.io/codeclimate/github/lgaticaq/gitlab-rancher-config.svg?style=flat-square)](https://codeclimate.com/github/lgaticaq/gitlab-rancher-config)
-[![devDependency Status](https://img.shields.io/david/dev/lgaticaq/gitlab-rancher-config.svg?style=flat-square)](https://david-dm.org/lgaticaq/gitlab-rancher-config#info=devDependencies)
+[![npm version](https://img.shields.io/npm/v/gitlab-rancher-config.svg)](https://www.npmjs.com/package/gitlab-rancher-config)
+[![npm downloads](https://img.shields.io/npm/dm/gitlab-rancher-config.svg)](https://www.npmjs.com/package/gitlab-rancher-config)
+[![Build Status](https://img.shields.io/travis/lgaticaq/gitlab-rancher-config.svg)](https://travis-ci.org/lgaticaq/gitlab-rancher-config)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2b2efe8150982916af4d/maintainability)](https://codeclimate.com/github/lgaticaq/gitlab-rancher-config/maintainability)
+[![devDependency Status](https://img.shields.io/david/dev/lgaticaq/gitlab-rancher-config.svg)](https://david-dm.org/lgaticaq/gitlab-rancher-config#info=devDependencies)
 
 > [Semantic-release](https://github.com/semantic-release/semantic-release) shareable config for [GitLab](https://gitlab.com) with [Rancher](https://rancher.com/docs/rancher/v1.6/en/).
 
@@ -14,7 +13,7 @@
 ### Local installation
 
 ```bash
-npm i -D semantic-release gitlab-rancher-config
+npm i -D semantic-release gitlab-rancher-config @semantic-release/{changelog,git,gitlab,npm} semantic-release-gitlab-registry semantic-release-rancher
 ```
 
 In `package.json`:
@@ -30,7 +29,7 @@ In `package.json`:
 ### Global installation
 
 ```bash
-$ npm i -g semantic-release gitlab-rancher-config
+$ npm i -g semantic-release gitlab-rancher-config @semantic-release/{changelog,git,gitlab,npm} semantic-release-gitlab-registry semantic-release-rancher
 $ semantic-release -e gitlab-rancher-config
 ```
 
