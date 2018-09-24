@@ -91,7 +91,10 @@
     ]
   },
   "renovate": {
-    "automerge": "minor"
+    "automerge": "minor",
+    "extends": [
+      "config:js-lib"
+    ]
   },
   "release": {
     "verifyConditions": [
