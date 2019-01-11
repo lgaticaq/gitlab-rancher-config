@@ -50,7 +50,7 @@
     "lint-staged": "8.1.0",
     "npm-github-config": "2.0.0",
     "prettier-standard": "8.0.1",
-    "semantic-release": "15.13.2"
+    "semantic-release": "15.13.3"
   },
   "peerDependencies": {
     "@semantic-release/changelog": "^3.0.0",
