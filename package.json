@@ -59,7 +59,7 @@
     "@semantic-release/npm": "^5.0.4",
     "semantic-release-gitlab-registry": "^2.2.0",
     "semantic-release": "^15.9.0",
-    "semantic-release-rancher": "^1.0.2 || ^2.0.0"
+    "semantic-release-rancher": "^2.0.1"
   },
   "eslintConfig": {
     "extends": "standard",
