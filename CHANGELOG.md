@@ -1,3 +1,16 @@
+# [4.0.0](https://github.com/lgaticaq/gitlab-rancher-config/compare/v3.0.0...v4.0.0) (2019-10-17)
+
+
+### Features
+
+* **deps:** migrate peerDependencies to dependencies ([e18c74a](https://github.com/lgaticaq/gitlab-rancher-config/commit/e18c74aa525e0d2b9d6021b5abe0a441ce528309))
+* **semantic-release:** migrate to plugins config ([43d4ac0](https://github.com/lgaticaq/gitlab-rancher-config/commit/43d4ac0fa43a0db4198e73c4aed99f39093f01fd))
+
+
+### BREAKING CHANGES
+
+* **deps:** Change install instructions to `npm i -D semantic-release gitlab-rancher-config`
+
 # [3.0.0](https://github.com/lgaticaq/gitlab-rancher-config/compare/v2.0.0...v3.0.0) (2019-02-21)
 
 
