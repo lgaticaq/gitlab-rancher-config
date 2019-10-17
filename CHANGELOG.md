@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/lgaticaq/gitlab-rancher-config/compare/v4.0.0...v4.0.1) (2019-10-17)
+
+
+### Bug Fixes
+
+* **plugins:** fix plugins declaration ([66812eb](https://github.com/lgaticaq/gitlab-rancher-config/commit/66812ebfbbd377b41b55fe89fdad32dbdbc18332))
+
 # [4.0.0](https://github.com/lgaticaq/gitlab-rancher-config/compare/v3.0.0...v4.0.0) (2019-10-17)
 
 
