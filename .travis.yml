@@ -8,7 +8,6 @@ notifications:
   email: false
 stages:
   - lint
-  - test
   - name: deploy
     if: branch = master
 jobs:
@@ -21,10 +20,5 @@ jobs:
       before_script:
         - npm i -g @commitlint/travis-cli
       script: commitlint-travis
-    - stage: test
-      node_js:
-        - "11"
-        - "10"
-      script: npm t
     - stage: deploy
       script: npx semantic-release
