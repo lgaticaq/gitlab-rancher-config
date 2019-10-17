@@ -13,7 +13,7 @@
 ### Local installation
 
 ```bash
-npm i -D semantic-release gitlab-rancher-config @semantic-release/{changelog,git,gitlab,npm} semantic-release-gitlab-registry semantic-release-rancher
+npm i -D semantic-release gitlab-rancher-config
 ```
 
 In `package.json`:
