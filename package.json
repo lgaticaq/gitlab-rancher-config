@@ -32,7 +32,7 @@
   "homepage": "https://github.com/lgaticaq/gitlab-rancher-config#readme",
   "dependencies": {
     "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/git": "^7.0.16",
+    "@semantic-release/git": "^8.0.0",
     "@semantic-release/gitlab": "^4.0.0",
     "semantic-release-gitlab-registry": "^2.2.1",
     "semantic-release-rancher": "^2.0.2"
@@ -56,10 +56,10 @@
     "husky": "4.0.6",
     "lint-staged": "9.5.0",
     "prettier-standard": "16.1.0",
-    "semantic-release": "15.14.0"
+    "semantic-release": "16.0.1"
   },
   "peerDependencies": {
-    "semantic-release": "^15.9.0"
+    "semantic-release": "^15.9.0 || ^16.0.0"
   },
   "eslintConfig": {
     "extends": "@eclass"
