@@ -1,3 +1,10 @@
+## [4.0.3](https://github.com/lgaticaq/gitlab-rancher-config/compare/v4.0.2...v4.0.3) (2020-02-04)
+
+
+### Bug Fixes
+
+* **deps:** update semantic-release monorepo ([00c60a4](https://github.com/lgaticaq/gitlab-rancher-config/commit/00c60a475b6c74dc9a657b967009c8ca67ac2280))
+
 ## [4.0.2](https://github.com/lgaticaq/gitlab-rancher-config/compare/v4.0.1...v4.0.2) (2020-01-14)
 
 
