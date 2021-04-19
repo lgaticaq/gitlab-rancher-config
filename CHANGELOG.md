@@ -1,3 +1,10 @@
+## [4.0.4](https://github.com/lgaticaq/gitlab-rancher-config/compare/v4.0.3...v4.0.4) (2021-04-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/gitlab to ^6.0.2 ([d946699](https://github.com/lgaticaq/gitlab-rancher-config/commit/d9466996864b4cf2e529fa35ad0d5fb1c3d841cf))
+
 ## [4.0.3](https://github.com/lgaticaq/gitlab-rancher-config/compare/v4.0.2...v4.0.3) (2020-02-04)
 
 
